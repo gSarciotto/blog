@@ -1,0 +1,113 @@
+/*----------------- Document ---------------------*/
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Fira Sans", sans-serif;
+}
+
+header,
+footer {
+	background-color: #eeeeef;
+	font-family: "Roboto Slab", serif;
+}
+
+header {
+	padding: 0 2rem 0 2rem;
+}
+
+footer {
+	padding: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #404040;
+}
+
+h1,
+h2 {
+	font-weight: 700;
+}
+
+footer > p {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #777;
+}
+
+/*--------------- Grids & Containers --------------------------*/
+.page-grid {
+	display: grid;
+	grid-template-rows: auto auto auto;
+}
+
+.content-container {
+	background-color: #eeffff;
+	padding: 2rem;
+}
+
+.buttons-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #eeeeef;
+	font-family: "Roboto Slab", serif;
+}
+
+/*-------------- Buttons -------------------------------------*/
+
+.btn-nav {
+	background-color: #eeeeef;
+	border: none;
+	height: 2.5rem;
+	width: 20%;
+}
+
+.btn-nav:hover {
+	background-color: #aaaaaa;
+	transition-duration: 0.6s;
+}
+
+/*--------------- Content: Posts -----------------------------*/
+
+.post {
+	width: 100%;
+	padding: 1rem 0;
+}
+
+.post-span {
+	color: #777;
+	display: block;
+}
+
+.post-description {
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.title {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+ul.tags-list {
+	padding-left: 0;
+	margin-top: 0;
+}
+
+ul.tags-list > li {
+	display: inline;
+	color: #777;
+	margin-right: 0.5rem;
+}
+
+div > a {
+	color: #aa0505;
+}
